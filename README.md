@@ -10,8 +10,8 @@ User login with form validation.
 Error messages for incorrect credentials.
 Redirects to a home page after successful login.
 Technology Stack
-Frontend: HTML, CSS, Thymeleaf
-Backend: Java, Spring Boot
+Frontend: HTML, CSS
+Backend: Java, Spring Boot, Thymeleaf
 Database: MySQL
 
 ## Setup Guide
@@ -27,5 +27,6 @@ Clone this repository:
 ## Future Improvements
 
 • Add password recovery.
+
 • Integrate credit card management features.
 
