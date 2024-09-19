@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymelead.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Rho Credit Card</title>
+<link rel="stylesheet" href="sign.css">
+<link rel="icon" type="image/x-icon" href="row.png">
+</head>
+<body>
+<form action="signup"  method="get">
+    <center><h1 class="board">Welcome to Rho</h1></center>
+    <div class="container">
+    <fieldset id="nowapply">
+       <legend>SignUp</legend>
+        <br>
+        <div class="mail">
+            <table class="mytable" >
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text"  id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" name="email" id="mailid" required></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" id="confirmpassword" required></td>
+                    
+                </tr>
+
+                
+                <tr>
+                    <td></td>
+                <td><input type="checkbox" onclick="myFunction()">Show Password
+                    
+                    
+                    <script>
+                        function myFunction() {
+                        var x = document.getElementById("confirmpassword");
+                        if (x.type === "password") {
+                        x.type = "text";
+                        } else {
+                        x.type = "password";
+                        }
+                        }
+                    </script>
+                </td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <form action="/regsuccessfull" method="get">
+                    <td><input type="submit" name="Signup" id="register" value="Register Now"></td>
+                    </form>
+                </tr>
+            
+            </table>
+        </div>
+            <span class="loginpage">Already have account?<a href="/admorcus">Login in</a></span>
+
+    </fieldset>
+</div>
+</form>
+</body>
+</html>

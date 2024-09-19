@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9; /* Light background color */
+            color: #333; /* Dark text color */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff; /* White background for table */
+            border-radius: 8px; /* Rounded corners for the table */
+            overflow: hidden; /* Ensures rounded corners are visible */
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 8px; /* Slightly more padding for compact look */
+            text-align: left;
+        }
+        th {
+            background-color: #007bff; /* Blue header background */
+            color: #fff; /* White text in header */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Light gray for even rows */
+        }
+        tr:nth-child(odd) {
+            background-color: #fff; /* White for odd rows */
+        }
+        a {
+            color: #007bff; /* Blue link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #007bff; /* Blue color for heading */
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Our Members</h1></center>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="student : ${data}">
+                <td th:text="${student.id}"></td>
+                <td th:text="${student.Firstname}"></td>
+                <td th:text="${student.Lastname}"></td>
+                <td th:text="${student.email}"></td>
+                <td th:text="${student.Mobile}"></td>
+                <td th:text="${student.Address}"></td>
+                <td>
+                    <a th:href="@{/list/details(id=${student.id})}">View</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

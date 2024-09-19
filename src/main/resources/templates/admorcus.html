@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #948f8f;;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        button {
+            padding: 10px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+
+        button:hover {
+            transform: scale(1.50);
+        }
+
+        button:first-child {
+            background-color: #FF6F61; /* Coral */
+        }
+
+        button:first-child:hover {
+            background-color: #E55446;
+        }
+
+        button:last-child {
+            background-color: #6B5B95; /* Purple */
+        }
+
+        button:last-child:hover {
+            background-color: #574B7B;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="/admin"><button>Admin</button></a>
+        <br>
+        <br>
+        <a href="/loginpage"><button>Customer</button></a>
+    </div>
+</body>
+</html>

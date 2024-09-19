@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+h1 {
+    color: #ff6347; /* Tomato red */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #4682b4; /* Steel blue */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+h4 {
+    color: #2e8b57; /* Sea green */
+    font-size: 20px;
+    margin: 5px 0;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #ffffff; /* White background for table */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+td {
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+td:first-child {
+    background-color: #add8e6; /* Light blue */
+}
+td:last-child {
+    background-color: #fafad2; /* Light goldenrod yellow */
+}

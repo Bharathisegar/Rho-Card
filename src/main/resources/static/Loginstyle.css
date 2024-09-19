@@ -1,0 +1,111 @@
+@media (min-width:360px)
+{
+body{
+    background-image: url('background\ card.jpg');
+    align-items: center; 
+  
+}  
+#nowapply{
+    
+    margin-top: 200px;
+    font-size: 15px;
+    font-weight: 600;
+  
+    border-color: #009dc0;
+    backdrop-filter: blur(20px);
+    background: rgba(90, 167, 240, 0.5);
+    border-radius: 10px;
+    
+}
+.container{
+    margin-left: 20px;
+       
+}
+.mail{
+    font-size: 15px;
+    text-align: center;
+}
+.password{
+    width: 150px;
+    opacity: 0.9;
+    height: 20px;
+}
+.username{
+    width: 150px;
+    opacity: 0.9;
+    height: 20px;
+}
+}
+@media(min-width:768px)
+{
+*{
+    max-width: 100%;
+
+}
+body{
+    background-image: url('background\ card.jpg');
+    
+}
+#nowapply{
+    height: 220px;
+    font-size: 50px;
+    font-weight: 600;
+    width: 280px;
+    margin-top: 170px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(90, 167, 240, 0.5);
+
+}
+.container{
+    margin-left: 166px;
+    
+}
+.mail{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+}
+@media (min-width:1024px)
+{
+
+*{
+    max-height: 800px;
+}
+body{
+    background-image: url('background\ card.jpg');
+ 
+}
+#nowapply{
+    height: 250px;
+    font-size: 50px;
+    font-weight: 600;
+    width: 350px;
+    margin-top: 175px;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    background: rgba(90, 167, 240, 0.5);
+
+}
+.container{
+    margin-left: 485px;
+}
+.mail{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.password{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+.username{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+}
+
+

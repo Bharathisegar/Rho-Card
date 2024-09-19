@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="userdetails.css">
+</head>
+<body>
+<center>
+    <h1>Applied Successfully!!</h1>
+    <h2>Your card is on the way <br> Will be delivered within 5-7 working days</h2>
+
+    <table>
+        <tr>
+            <td><h4>First Name:</h4></td>
+            <td><h4 th:text="${user.Firstname}"></h4></td>
+        </tr>
+        <tr>
+            <td><h4>Last Name:</h4></td>
+            <td><h4 th:text="${user.Lastname}"></h4></td>
+        </tr>
+        <tr>
+            <td><h4>Name:</h4></td>
+            <td>
+                <h4 id="nameInput" th:text="${user.Firstname + ' ' + user.Lastname+' '}"></h4>
+                <button onclick="greetUser()">Greet</button>
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Email id:</h4></td>
+            <td><h4 th:text="${user.email}"></h4></td>
+        </tr>
+        <tr>
+            <td><h4>Mobile:</h4></td>
+            <td><h4 th:text="${user.Mobile}"></h4></td>
+        </tr>
+        <tr>  
+            <td><h4>Address:</h4></td>
+            <td><h4 th:text="${user.Address}"></h4></td>
+        </tr>
+    </table>
+    <a href="/online" style="width:200px;height:100px;"><button>Back to Home</button></a>
+</center>
+
+<script>
+    function greetUser() {
+        var name = document.getElementById("nameInput").innerText;
+        var greeting = "Hi " + name + "Congrats. You are our valuable member";
+        var utterance = new SpeechSynthesisUtterance(greeting);
+        speechSynthesis.speak(utterance);
+    }
+</script>
+</body>
+</html>

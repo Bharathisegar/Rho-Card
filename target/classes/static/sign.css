@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;   
+}
+body{
+    background-image: url('sign\ up\ bg.jpg');
+}
+@media(min-width:360px)
+{
+    .board{
+        margin-top: 10px;
+    }
+    
+    
+    #nowapply{
+        height: fit-content;
+        font-size: 50px;
+        font-weight: 600;
+        width: 300px;
+        border-radius: 25px;
+    
+    }
+    
+    .container{
+        margin-left: 520px;
+        margin-top: 50px;
+    }
+    .mail{
+        margin: -50px 25px 20px 10px;
+        font-size: 16px;
+        text-align: start;
+        padding:10px ;
+    }
+    .loginpage{
+        font-size: 20px;
+    }
+    #password{
+        width: 200px;
+        opacity: 0.9;
+        height: 25px;
+    }
+    #mailid{
+        width: 200px;
+        opacity: 0.9;
+        height: 25px;
+    }
+    #name{
+        width: 200px;
+        opacity: 0.9;
+        height: 25px;
+    }
+    #confirmpassword{
+        width: 200px;
+        opacity: 0.9;
+        height: 25px;
+    }
+    #register{
+        width: 120px;
+        height: 30px;
+    }
+    
+}
+@meda(min-width:1024px)
+{
+.board{
+    margin-top: 60px;
+}
+
+#nowapply{
+    height: fit-content;
+    font-size: 50px;
+    font-weight: 600;
+    width: 335px;
+    
+    border-radius: 25px;
+
+}
+.container{
+    margin-left: 525px;   
+    margin-top: 50px;
+}
+.mail{
+    margin: -50px 25px 20px 10px;
+    font-size: 16px;
+    text-align: start;
+    padding:10px ;
+}
+.loginpage{
+    font-size: 20px;
+}
+#password{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+#mailid{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+#name{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+#confirmpassword{
+    width: 200px;
+    opacity: 0.9;
+    height: 25px;
+}
+}

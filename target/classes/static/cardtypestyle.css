@@ -1,0 +1,295 @@
+@charset "ISO-8859-1";
+
+
+@media(min-width:360px)
+{
+    *{
+        max-width: 100%;
+    }
+    #navbar{
+        position: sticky;
+        top:0;
+        z-index: 100;
+        padding:0.5rem 3rem ;
+        font-style: italic;
+        box-shadow: 5px;
+        background-color: white;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+        color: #525153 !important;
+        font-weight: 900;
+        
+    }
+    #mybutton{
+        font-size: 10px;
+        width:25px ;
+        height: 25px;
+    }
+    #navbarSupportedContent{
+        margin-left: 60px;
+        text-align: end;
+        font-weight: 700;
+    }
+
+    
+#navbarSupportedContent a:hover{
+    border-top:2px solid rgb(249, 109, 109);
+    color: chocolate;                                                                                       
+}
+#navbarSupportedContent button{
+    color: white;
+}
+#navbarSupportedContent button a:hover{
+    inset: 4px 4px 4px;
+}
+.typesofcard{   
+    background-color: #e2e1e1;
+}
+#platinumcard1 img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+#platinumcard1{
+    margin-top: 50px;
+    margin-left: 50px;  
+}
+#platinumcontent{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+#goldcard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+#goldcard1{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+#goldcontent{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}
+#classiccard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+#classiccard1{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#classiccontent{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+#infinitecard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+#infinitecard1{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#infinitecontent{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+
+.footer{
+    background-color: #02062d;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.love{
+    color: #e5283f;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 15px 2px 15px;
+
+}
+.firstline{
+    font-size: 40px;
+    color:rgb(0, 21, 253) ;
+    font-weight: 700;
+    font-style: italic;
+}
+.secondline{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+}
+
+@media(min-width:1024px)
+{
+*{
+    max-width: 100%;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    padding:0.5rem 3rem ;
+    font-style: italic;
+    box-shadow: 5px;
+    background-color: white;
+}
+.navbar-brand{
+    color: #525153 !important;
+    font-weight: 900;
+}
+
+#navbarSupportedContent{
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+
+#navbarSupportedContent a:hover{
+    border-top:3px solid rgb(249, 109, 109);
+    color: chocolate;
+}
+#navbarSupportedContent button{
+    color: white;
+}
+#navbarSupportedContent button a:hover{
+    inset: 4px 4px 4px;
+}
+
+#navbutton{
+    margin-left: 250px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.typesofcard{   
+    background-color: #e2e1e1;
+}
+
+#platinumcard1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#platinumcontent{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#goldcard1{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#goldcontent{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 10px;
+    text-align: justify;
+}
+#classiccard1 img{
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    
+}
+
+#classiccard1{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#classiccontent{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 10px;
+    text-align: justify;
+}
+#infinitecard1{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#infinitecontent{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: #02062d;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.love{
+    color: #e5283f;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 15px 2px 15px;
+}
+.love img{
+    width: 30px;
+}
+.firstline{
+    font-size: 40px;
+    color:rgb(0, 21, 253) ;
+    font-weight: 700;
+    font-style: italic;
+}
+.secondline{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#footerimg{
+    width: 40%;
+}
+}
+
+
+@media(min-width:1050px)
+{
+*{
+    max-width: 100%;
+}
+#goldcard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+
+}
+#platinumcard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+#infinitecard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+#classiccard1 img{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+}
